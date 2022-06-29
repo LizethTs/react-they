@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-brand {
+    font-size: 36px;
+}
+
+.nav-menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    max-width: 450px;
+}
+
+.nav-menu-item {
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-menu-item:hover {
+    background-color: #E085BF;
+}
