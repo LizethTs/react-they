@@ -1,0 +1,10 @@
+.carrito {
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+} 
+.carrito:hover {
+    background-color: #ffffff;
+    color: #E085BF;
+}
