@@ -1,0 +1,27 @@
+.titulo {
+    padding: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+.contador {
+    padding: 10px;
+    background-color: #ffe6ff;
+    width: 25%;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botonUno {
+    background-color: #ebebe0;
+    padding: 9px;
+    margin: 6px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+.botonUno:hover {
+    background-color: #d9b3ff;
+}
