@@ -10,7 +10,7 @@ const Item = ({ id, title, description, price, image} ) => {
             <h3>{title}</h3>
             <p>{description.substr(0,20)}</p>
             <p>{price}</p>
-        </div>      
+        </div>
     );
 };
  
