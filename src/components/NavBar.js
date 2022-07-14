@@ -6,15 +6,12 @@ function NavBar() {
     <nav className="navbar">
       <h1 className="nav-brand">They</h1>
       <ul className="nav-menu-items">
-        <li className="nav-menu-item" href="javascript:void(0)">
-          Inicio
-        </li>
-        <li className="nav-menu-item" href="javascript:void(0)"> Nosotros</li>
-        <li className="nav-menu-item" href="javascript:void(0)"> Explorar</li>
-        <li className="nav-menu-item"href="javascript:void(0)"> Contacto</li>
+        <li className="nav-menu-item">Inicio</li>
+        <li className="nav-menu-item"> Nosotros</li>
+        <li className="nav-menu-item"> Explorar</li>
+        <li className="nav-menu-item"> Contacto</li>
         <CartWidget />
       </ul>
-      
     </nav>
   );
 }
